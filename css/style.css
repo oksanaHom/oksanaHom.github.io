@@ -1,0 +1,165 @@
+@import "https://fonts.googleapis.com/css?family=Russo+One";
+@import  "https://fonts.googleapis.com/css?family=Roboto+Slab";
+
+*{
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin-bottom:20px;
+}
+
+html,body {
+	height:100%;
+}
+
+nav {
+	position:fixed;
+	height:50px;
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+	z-index:99;
+	text-align:center;
+}
+
+nav a {
+	text-decoration:none;
+	color:#fff;
+	margin-left:30px;
+	line-height:50px;
+}
+nav a:hover {
+	color:#a0a0a0;
+	transition: all.4s ease;
+	-cr-transition: all.4s ease;
+	-o-transition: all.4s ease;
+	-moz-transition: all.4s ease;
+	-webkit-transition: all.4s ease;
+}
+
+#logo>a>img {
+	width: auto;
+	max-height: 40px;
+	float:left;
+	
+}
+
+
+#logo {
+	float:left;
+	width:30%;
+}
+
+#link {
+	width:70%;
+}
+
+#link: first-child {
+	margin-left:20%;
+}
+
+.sect {
+	height: 100%;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+}
+
+.subSection {
+	padding-left:0;
+	padding-right:0;
+	height: 30%;
+	background-color: #262626;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+.sectOne {
+	background-image: url("../img/ein4.jpg");
+}
+
+.sectTwo {
+	background-image: url("../img/ein5.jpg");
+}
+
+.sectThree {
+	background-image: url("../img/einherjer.png");
+}
+
+.sectFour {
+	background-image: url("../img/ein2.jpg");
+}
+
+footer {
+    position:absolute;
+	float: left;
+	background-color: #262626;
+	width:98%;
+	padding: 1%;
+	margin-bottom:0;
+}
+
+#footer_menu {
+	font-size:1.2em;
+}
+
+#footer_menu >a{
+	margin-left:2%;
+	color:#fff;
+	text-decoration: none;
+}
+
+#footer_menu>a:hover {
+	color:#a0a0a0;
+	transition: all.4s ease;
+	-cr-transition: all.4s ease;
+	-o-transition: all.4s ease;
+	-moz-transition: all.4s ease;
+	-webkit-transition: all.4s ease;
+}
+
+#rights {
+	margin-left:5%;
+	margin-top: 20px
+	font-size:1.1em;
+	float:left;
+}
+
+#rights>span {
+	color:#999999;
+}
+
+#site_name {
+	margin-right:5%;
+	color: white;
+	font-size:1.5em;
+	float:right;
+}
+
+#text {
+	width:80%;
+	float:left;
+
+	margin-right: 10%;
+	margin-left: 15%;	
+	color:#fff;
+	font-family: 'Roboto Slab';
+}
+
+#more {
+    float:float;
+    margin-left: 70%;
+	text-decoration: none;
+	color:#fff;
+	font-family: 'Roboto Slab'
+	
+}
+
+#more:hover {
+	color:#a0a0a0;
+	transition: all.4s ease;
+	-cr-transition: all.4s ease;
+	-o-transition: all.4s ease;
+	-moz-transition: all.4s ease;
+	-webkit-transition: all.4s ease;
+}
